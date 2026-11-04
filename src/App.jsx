@@ -123,6 +123,7 @@ function App() {
           <a href="#features" onClick={closeMenu}>Features</a>
           <a href="#how-it-works" onClick={closeMenu}>How it works</a>
           <a href="#faq" onClick={closeMenu}>FAQ</a>
+          <a href="/privacy-policy.html" onClick={closeMenu}>Privacy Policy</a>
           <a className="nav-cta" href="#terms" onClick={closeMenu}>Terms &amp; Conditions</a>
         </nav>
       </header>
@@ -314,7 +315,7 @@ function App() {
           <span>GrowWith <strong>Billing</strong></span>
         </a>
         <p>Make room for the work that grows your business.</p>
-        <div className="footer-links"><a href="#features">Features</a><a href="#faq">FAQ</a><a href="#terms">Terms &amp; Conditions</a></div>
+        <div className="footer-links"><a href="#features">Features</a><a href="#faq">FAQ</a><a href="#terms">Terms &amp; Conditions</a><a href="/privacy-policy.html">Privacy Policy</a><a href="/delete-account.html">Delete account</a></div>
         <span className="copyright">© 2026 GrowWith Billing</span>
       </footer>
     </div>
