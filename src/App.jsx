@@ -107,7 +107,7 @@ function App() {
     <div className="site-shell">
       <header className="site-header">
         <a className="brand" href="#home" aria-label="GrowWith Billing home" onClick={closeMenu}>
-          <span className="brand-mark"><Icon name="chart" size={22} /></span>
+          <img className="brand-logo" src="/GrowLogo.jpeg" alt="" />
           <span>GrowWith <strong>Billing</strong></span>
         </a>
         <button
@@ -123,8 +123,9 @@ function App() {
           <a href="#features" onClick={closeMenu}>Features</a>
           <a href="#how-it-works" onClick={closeMenu}>How it works</a>
           <a href="#faq" onClick={closeMenu}>FAQ</a>
+          <a href="/about-us.html" onClick={closeMenu}>About Us</a>
           <a href="/privacy-policy.html" onClick={closeMenu}>Privacy Policy</a>
-          <a className="nav-cta" href="#terms" onClick={closeMenu}>Terms &amp; Conditions</a>
+          <a className="nav-cta" href="/terms-and-conditions.html" onClick={closeMenu}>Terms &amp; Conditions</a>
         </nav>
       </header>
 
@@ -304,18 +305,18 @@ function App() {
                 </article>
               ))}
             </div>
-            <p className="terms-note">Last updated: November 2026. These general terms are provided for the website and service overview; they are not legal advice.</p>
+            <p className="terms-note">Read the full <a href="/terms-and-conditions.html">Terms &amp; Conditions</a> for the terms that apply to the Service.</p>
           </div>
         </section>
       </main>
 
       <footer className="site-footer">
         <a className="brand footer-brand" href="#home">
-          <span className="brand-mark"><Icon name="chart" size={20} /></span>
+          <img className="brand-logo" src="/GrowLogo.jpeg" alt="" />
           <span>GrowWith <strong>Billing</strong></span>
         </a>
         <p>Make room for the work that grows your business.</p>
-        <div className="footer-links"><a href="#features">Features</a><a href="#faq">FAQ</a><a href="#terms">Terms &amp; Conditions</a><a href="/privacy-policy.html">Privacy Policy</a><a href="/delete-account.html">Delete account</a></div>
+        <div className="footer-links"><a href="#features">Features</a><a href="#faq">FAQ</a><a href="/about-us.html">About Us</a><a href="/terms-and-conditions.html">Terms &amp; Conditions</a><a href="/privacy-policy.html">Privacy Policy</a><a href="/delete-account.html">Delete account</a></div>
         <span className="copyright">© 2026 GrowWith Billing</span>
       </footer>
     </div>
